@@ -2,13 +2,13 @@ ListBGimage for Trello
 ====
 Trelloのリストからカードがすべてなくなった時に、リスト背景に指定した画像を表示させるChrome拡張
 
-(画像を張る)
+![overview](https://github.com/kbn1053/ListBGImage-for-Trello/blob/master/images/overview.png?raw=true "overview")
 
 ## Description
 Trelloでタスクを管理している方向けのChrome拡張。
 Trelloのリストからカードがすべてなくなった時に、リストに指定した背景画像を表示させます。
 
-gmailとかで受信トレイが空になった時に表示されるアレです。
+gmailとかで受信トレイが空になった時に表示される例のアレです😏 
 
 ## Demo
 
