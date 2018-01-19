@@ -27,7 +27,7 @@ const listbgimage_main = () => {
     let targetnode = search_trello_list(strage_data.tlistname);
     //対象が無い場合は処理終了
     if (typeof (targetnode) === "undefined") {
-      console.log("対象なし");
+      //console.log("対象なし");
       return;
     }
 
@@ -55,7 +55,7 @@ const listbgimage_reload = () => {
 
   //対象が無い場合は処理終了
   if (typeof (targetnode) === "undefined") {
-    console.log("対象なし");
+    //console.log("対象なし");
     return;
   }
 
@@ -79,7 +79,7 @@ const set_bd_observer = () => {
   // boardの移動を監視で反応があった時の処理
   var bd_observer = new MutationObserver((mutations) => {
 
-    console.log("board changed");
+    //console.log("board changed");
 
     // List監視を停止する
     if (typeof (list_observer) !== "undefined") {
@@ -97,7 +97,7 @@ const set_bd_observer = () => {
 //strageの変更を監視
 const strage_change_reload = (cngobj, area) => {
 
-  console.log(JSON.stringify(cngobj));
+  //console.log(JSON.stringify(cngobj));
 
   // 設定済み処理を消去
   const style = document.getElementById("tskoverimgbg_strage");
@@ -139,7 +139,7 @@ const validate_stragedata = (keylist, data_obj) => {
   //各データをvalidate
   keylist.map(key => {
 
-    console.log(key + ":" + data_obj[key]);
+    //console.log(key + ":" + data_obj[key]);
 
     if (typeof (data_obj[key]) === "undefined" || data_obj[key] === "default") {
       switch (key) {
@@ -160,7 +160,7 @@ const validate_stragedata = (keylist, data_obj) => {
           data_obj[key] = "contain";
           break;
         default:
-          console.log("想定外");
+          //console.log("想定外");
           break;
       }
     }
@@ -201,7 +201,7 @@ const search_trello_list = (listname) => {
     if (listname === value.firstChild.nodeValue) {
       // カードリストが収まる部分のNodeを選択
       return_node = value.parentNode.nextSibling;
-      console.log("serch hit");
+      //console.log("serch hit");
     }
   });
 
