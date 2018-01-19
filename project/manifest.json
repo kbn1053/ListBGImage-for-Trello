@@ -38,8 +38,7 @@
   "permissions": [
     "declarativeContent",
     "storage",
-    "tabs",
-    "https://trello.com/*"
+    "tabs"
   ],
   "web_accessible_resources": [
     "images/ocean_bed.png"

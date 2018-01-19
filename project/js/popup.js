@@ -95,17 +95,6 @@ const save = () => {
       const comment = document.getElementById("comment");
       comment.innerHTML = "Saved & Load New Settings!"
 
-      //Trelloページにjsを再読み込みさせる
-      chrome.tabs.query({ url: "https://trello.com/*" }, (tabs) => {
-        const tabID = tabs[0].id;
-        if (tabID === undefined) {
-          return;
-        }
-
-        chrome.tabs.executeScript(tabID, { file: "js/script.js" }, (result) => {
-          //console.log("script reload");
-        });
-      });
     });
 };
 
