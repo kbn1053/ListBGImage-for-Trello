@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/popup.css">
+
+</head>
+
+<body style="min-width:300px">
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="container">
+    <div style="margin-top: 5%">
+      <h6 style="font-weight: 600">🛠Trelloリストの背景画像の設定</h6>
+    </div>
+
+    <label for="listname">背景画像を設定するリスト名
+      <input type="text" id="listname" value="Today">
+    </label>
+
+    <label for="imgurl">背景表示する画像のURL
+      <input type="text" id="imgurl" value="https://www.google.co.jp/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+    </label>
+
+    <label for="listheight" style="font-size:1.3rem">カードが空の時のListの高さ(px)
+      <input type="text" id="listheight" value="300" style="width:5em">
+    </label>
+
+    <div class="hidden_box">
+      <label for="koudo" style="padding:0 0 10px 0; cursor :pointer;">🐲高度な設定</label>
+      <input type="checkbox" id="koudo" style="display:none;" />
+
+      <div class="hidden_show">
+        <!--非表示ここから-->
+        <label for="alwaysmode" style="font-size:1.2rem">
+          <input type="checkbox" id="alwaysmode" /> 常に背景画像を表示
+        </label>
+
+        <label for="scale" style="font-size:1.2rem">背景画像がはみ出る場合の調整
+          <input type="text" id="scale" value="auto auto" style="margin-bottom:0">
+        </label>
+        <p style="font-size: 1.1rem">contain/cover/autoのいずれかを指定する</p>
+
+        <!--ここまで-->
+      </div>
+    </div>
+
+    <input class="button-primary" type="button" id="Save" value="Save" />
+    <input type="button" id="setdefault" value="default" />
+
+    <p id="comment" style="font-weight:600;color:coral"></p>
+  </div>
+
+  <script src="js/popup.js"></script>
+
+  <!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+
+</html>

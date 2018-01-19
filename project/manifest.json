@@ -1,0 +1,46 @@
+{
+  "name": "ListBGImage for Trello",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "description": "Trelloにて、今日のタスクが全て完了したときにごほうび画像を表示する拡張です。リストの背景に画像を設定します。",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "page_action": {
+    "default_icon": {
+      "19": "icons/icon19.png"
+    },
+    "default_title": "TListBGImage for Trello",
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://trello.com/*"
+      ],
+      "css": [
+        "css/style.css"
+      ],
+      "js": [
+        "js/script.js"
+      ]
+    }
+  ],
+  "background": {
+    "scripts": [
+      "js/background.js"
+    ],
+    "persistent": false
+  },
+  "permissions": [
+    "declarativeContent",
+    "storage",
+    "tabs",
+    "https://trello.com/*"
+  ],
+  "web_accessible_resources": [
+    "images/ocean_bed.png"
+  ]
+}
