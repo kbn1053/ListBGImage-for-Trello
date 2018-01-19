@@ -2,7 +2,8 @@
   "name": "ListBGImage for Trello",
   "version": "1.0.0",
   "manifest_version": 2,
-  "description": "Trelloにて、今日のタスクが全て完了したときにごほうび画像を表示する拡張です。リストの背景に画像を設定します。",
+  "description": "Trelloのリストからカードがすべてなくなった時に、リスト背景に指定した画像を表示させる拡張",
+  "homepage_url": "https://github.com/kbn1053/ListBGImage-for-Trello",
   "icons": {
     "16": "icons/icon16.png",
     "48": "icons/icon48.png",
