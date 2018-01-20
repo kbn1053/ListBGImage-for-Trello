@@ -10,10 +10,11 @@ Trelloのリストからカードがすべてなくなった時に、リスト�
 
 いわゆるgmailで受信トレイが空になった時に表示される例のアレです😏 
 
-## Demo & Usage
+## Demo & Usage - YouTube
 
 [![youtube](http://i.ytimg.com/vi/Prlp0VoCuYY/mqdefault.jpg)](https://youtu.be/Prlp0VoCuYY)
 
+https://youtu.be/Prlp0VoCuYY
 
 ## Requirement
 
