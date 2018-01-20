@@ -12,8 +12,7 @@ Trelloのリストからカードがすべてなくなった時に、リスト�
 
 ## Demo & Usage
 
-<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">Trelloで全タスク完了時にごほうび画像を表示するChrome拡張作りました<br> <a href="https://t.co/hnTyseVwt0">https://t.co/hnTyseVwt0</a></p>&mdash; kbn1053 (@kbn1053) <a href="https://twitter.com/kbn1053/status/954629568786132992?ref_src=twsrc%5Etfw">2018年1月20日</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+[![youtube](http://i.ytimg.com/vi/Prlp0VoCuYY/mqdefault.jpg)](https://youtu.be/Prlp0VoCuYY)
 
 
 ## Requirement
