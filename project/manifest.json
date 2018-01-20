@@ -1,6 +1,6 @@
 {
   "name": "ListBGImage for Trello",
-  "version": "1.0.2",
+  "version": "1.1.2",
   "manifest_version": 2,
   "description": "Trelloのリストからカードがすべてなくなった時に、リストの背景に指定した画像を表示させる拡張",
   "homepage_url": "https://github.com/kbn1053/ListBGImage-for-Trello",
@@ -36,7 +36,6 @@
     "persistent": false
   },
   "permissions": [
-    "declarativeContent",
     "storage",
     "tabs"
   ],
