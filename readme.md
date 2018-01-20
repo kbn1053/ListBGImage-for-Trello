@@ -10,7 +10,7 @@ Trelloのリストからカードがすべてなくなった時に、リスト�
 
 いわゆるgmailで受信トレイが空になった時に表示される例のアレです😏 
 
-## Demo
+## Demo & Usage
 
 (動画を張る)
 
@@ -21,22 +21,18 @@ Google Chrome
 また、インストール時のパーミッション許可は以下が必要となります。
 
 - htttp://trello.comの自分のデータ
-- 閲覧履歴
-  - backgounr.jsにてdeclarativeContent使ったせい？
-  - [Todo] 将来的にはこのパーミッションは不要としたい
 
-## Usage
+(画像)
 
-(動画)
+
 
 ## Install - Chrome websore
 
 https://chrome.google.com/webstore/detail/listbgimage-for-trello/biekkgcbpkmhegdlcnoggfoicbhneobb
 
 ## TODO
-- permission : 閲覧履歴を不要にする
-- style background-originの設定
 - 他言語:en対応
+- style background-originの設定
 
 ## Licence
 

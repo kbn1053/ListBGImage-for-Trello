@@ -1,9 +1,11 @@
-// popup有効化処理 :https://teratail.com/questions/109480
-// TODO tabのupdateを監視するので若干負荷あり : メッセージングで対応したほうがよさそうだが
-function checkUrl(tabId, changeInfo, tab) {
-  if (tab.url.indexOf('https://trello.com') == 0) {
-    chrome.pageAction.show(tabId);
-  }
-};
+// popup有効化処理 
+//https://qiita.com/NewGyu/items/8878ebc392803b0b1cd0
+//https://qiita.com/Tachibana446/items/ab15021099d54d1209c2
+chrome.runtime.onMessage.addListener((request, sender, callback) => {  // 1
 
-chrome.tabs.onUpdated.addListener(checkUrl);
+  chrome.pageAction.show(sender.tab.id);
+  callback(sender.tab.id);
+  //console.log("test"); // donot work..
+
+  return true;
+});

@@ -10,6 +10,11 @@ var list_observer;
 ////////////////
 /// 主処理の定義
 ///////////////
+//popupを有効化処理
+chrome.runtime.sendMessage({ message: "message" }, response => {
+  // console.log(response);
+  // alert(response);
+});
 
 // main
 const listbgimage_main = () => {
