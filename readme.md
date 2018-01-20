@@ -22,7 +22,7 @@ Google Chrome
 
 - htttp://trello.comの自分のデータ
 
-(画像)
+![permission](https://github.com/kbn1053/ListBGImage-for-Trello/blob/master/images/permission.png?raw=true "permission")
 
 
 
