@@ -36,6 +36,8 @@ https://chrome.google.com/webstore/detail/listbgimage-for-trello/biekkgcbpkmhegd
 - 他言語:en対応
 - style background-originの設定
 - 複数List対応(需要なさそう)
+- **NOT** TODO(非対応)
+    - 画像のローカルファイル指定
 
 ## Licence
 
