@@ -58,6 +58,10 @@ Nice Library (^-^)b
 
 - [skeleton](http://getskeleton.com/)
 
+Default image illustlated by
+
+- [いらすとや](http://www.irasutoya.com/)
+
 ## Contribution
 
 (´ω｀)？
